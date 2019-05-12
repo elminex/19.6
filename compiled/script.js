@@ -107,9 +107,7 @@ function () {
 var stopwatch = new Stopwatch(document.querySelector('.stopwatch'));
 var resetButton = document.getElementById('reset');
 resetButton.addEventListener('click', function () {
-  if (stopwatch.running === false) {
-    stopwatch.reset();
-  }
+  stopwatch.reset();
 });
 var startButton = document.getElementById('start');
 startButton.addEventListener('click', function () {

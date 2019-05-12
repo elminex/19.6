@@ -78,9 +78,7 @@ const stopwatch = new Stopwatch(document.querySelector('.stopwatch'));
 
 const resetButton = document.getElementById('reset');
 resetButton.addEventListener('click', () => {
-  if (stopwatch.running === false) {
-    stopwatch.reset();
-  }
+  stopwatch.reset();
 });
 
 const startButton = document.getElementById('start');
